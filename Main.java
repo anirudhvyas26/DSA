@@ -1,39 +1,43 @@
 public class Main {
     public static void main(String[] args) {
+        CircularLInkedList cll = new CircularLInkedList();
 
-        DLinkedList dll = new DLinkedList();
-        dll.insert(10);
-        dll.insert(20);
-        dll.insert(30);
-        dll.insert(40);
-        dll.display();
+        cll.display();
+        cll.insert(10);
+        cll.display();
+        cll.insert(20);
+        cll.display();
+        cll.insert(30);
+        cll.display();
+        cll.insert(40);
+        cll.display();
 
-        dll.insert(50, 1);
-        dll.display();
-        dll.insert(60, 4);
-        dll.display();
-        dll.insert(70, 7);
-        dll.display();
-        dll.insert(80, 9);
-        dll.display();
+        cll.insert(50, 1);
+        cll.display();
+        cll.insert(60, 4);
+        cll.display();
+        cll.insert(70, 7);
+        cll.display();
+        cll.insert(80, 10);
+        cll.display();
 
-        dll.deleteByPosition(1);
-        dll.display();
-        dll.deleteByPosition(4);
-        dll.display();
-        dll.deleteByPosition(5);
-        dll.display();
-        dll.deleteByPosition(5);
-        dll.display();
 
-        /*dll.deleteByVal(50);
-        dll.display();
-        dll.deleteByVal(60);
-        dll.display();
-        dll.deleteByVal(70);
-        dll.display();
-        dll.deleteByVal(50);
-        dll.display();*/
+        cll.deleteByPosition(1);
+        cll.display();
+        cll.deleteByPosition(3);
+        cll.display();
+        cll.deleteByPosition(5);
+        cll.display();
+        cll.deleteByPosition(5);
+        cll.display();
 
+        /*cll.deleteByVal(50);
+        cll.display();
+        cll.deleteByVal(60);
+        cll.display();
+        cll.deleteByVal(70);
+        cll.display();
+        cll.deleteByVal(50);
+        cll.display();*/
     }
 }
